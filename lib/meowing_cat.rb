@@ -6,3 +6,6 @@ def meow
   attr_accessor:meow
   puts "meow!"
  end
+ 
+ maru = Cat.new
+ maru.meow
